@@ -46,7 +46,7 @@ public class Player : MovingObject {
         int horizontal = 0;
         int vertical = 0;
 
-#if UNITY_STANDALONE || UNITY_WEBPLAYER
+#if UNITY_EDITOR || UNITY_STANDALONE || UNITY_WEBPLAYER
 
         horizontal = (int)Input.GetAxisRaw("Horizontal");
         vertical = (int)Input.GetAxisRaw("Vertical");
@@ -108,7 +108,7 @@ public class Player : MovingObject {
             other.gameObject.SetActive(false);
         } else if (other.CompareTag("Soda")) {
             food += pointsPerSoda;
-            foodText.text = "+" + pointsPerFood + " Food: " + food;
+            foodText.text = "+" + pointsPerSoda + " Food: " + food;
             SoundManager.instance.RandomizeSfx(drinkSound1, drinkSound2);
             other.gameObject.SetActive(false);
         }
