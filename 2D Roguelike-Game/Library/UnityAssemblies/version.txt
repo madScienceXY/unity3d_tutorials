@@ -1,0 +1,9 @@
+5.4.0f3:2.3.0.0
+Android
+D:/programming/unity/Editor/Data/Managed/UnityEngine.dll
+D:/programming/unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
+D:/programming/unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
+D:/programming/unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll
+D:/programming/unity/Editor/Data/Managed/UnityEditor.dll
+D:/programming/unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll
+D:/programming/unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll
